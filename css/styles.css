@@ -79,12 +79,12 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team-list {
+/*.team-list {
 }
 .team-item {
 }
 .team-img {
-}
+}*/
 .text-team {
   color: var(--SLATE, #434455);
   text-align: center;
