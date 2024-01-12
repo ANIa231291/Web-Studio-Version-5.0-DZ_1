@@ -7,6 +7,22 @@ a {
 ul {
   list-style: none;
 }
+
+/*------------------------------HEADER -----------------*/
+.header {
+}
+.heade-navigation {
+}
+
+.header-logo {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .span-italik {
   color: var(--IRIS, #4d5ae5);
   font-size: 18px;
@@ -14,15 +30,15 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-.header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.header-menu-list {
 }
-
+.header-adress-item {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02px;
+}
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -31,15 +47,68 @@ ul {
   letter-spacing: 0.02;
 }
 
+.header-address {
+}
+.header-address-list {
+}
 .header-adress-item {
+}
+
+/*----------------------- ADRESS HEADER -----------------*/
+
+.section-text {
+}
+.section-text-list {
+}
+.section-text-item {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+/*----------------------- MAIN SECTION 1 -----------------*/
+.main {
+}
+.effective-section {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.hero-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button-order {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+}
+/*---------------------- EFFECTIVE SECTION 2 ---------------*/
 
-.section-text {
+.effective-section {
+}
+.hero-title {
+}
+.button-order {
+}
+.section-text-hero {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .section-text-list {
 }
@@ -59,7 +128,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+/*------------------- SECTION 3 -------------------------*/
 .team-section {
 }
 .hero-team-section {
@@ -71,6 +140,12 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
 .hero-team {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -79,12 +154,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-/*.team-list {
-}
-.team-item {
-}
-.team-img {
-}*/
 .text-team {
   color: var(--SLATE, #434455);
   text-align: center;
@@ -94,6 +163,39 @@ ul {
   letter-spacing: 0.02em;
 }
 
+/*-----------------------SECTION-4-portfolio--------------*/
+
+.section-portfolio {
+}
+.hero-portfolio-section {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.hero-portfolio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text-portfolio {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/*----------------------------- FOOTER ----------------------*/
 .footer-section {
   background: var(--NAVY-BLUE, #2e2f42);
 }
